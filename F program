@@ -1,0 +1,27 @@
+users={
+
+    'Ashwin':'KA032231','Dhinesh':'PA322457',
+
+    'Ajay':'PA222463','Raju':'PA223804',
+
+    'Bathra':'KAKKI09','Kishore':'SPSR15',
+
+    'Helina':'GHDR123','Charu':'SRTMP4',
+
+    'Mridula':'PMGR796','Avanthika':'MIED85'
+
+    }
+
+userid=input('Enter username:')
+
+password=input('Enter password:')
+
+for d,s in users.items():
+
+    if d==userid and s==password:
+
+        print('valid username and password')
+
+        exit()
+
+print('Invalid  username and password')
